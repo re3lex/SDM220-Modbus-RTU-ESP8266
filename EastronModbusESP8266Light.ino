@@ -119,7 +119,7 @@ void loop() {
   }
 
   if (doRequest && currentParamIdx < 3) {
-    int codes_p0_37[7] = {0, 6, 12, 18, 24, 30, 36};
+    int codes_p0_37[6] = {0, 6, 12, 18, 24, 30};
     int codes_p70_80[5] = {70, 72, 74, 76, 78};
     int codes_p342_344[2] = {342, 344};
 
